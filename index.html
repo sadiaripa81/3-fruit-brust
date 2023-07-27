@@ -20,24 +20,22 @@
 </head>
 <body class="font-lato" data-theme="light">
     <!-- navbar -->
-    <nav class="py-12 border border-red-950">
+    <nav class="py-12">
         <div class="container mx-auto flex justify-between items-center bg-red-400 rounded-full px-6 py-3">
-            
             <div class="flex lg:flex-row">
-                <ul class="menu menu-horizontal text-white border border-red-950">
+                <ul class="menu menu-horizontal text-white">
                   <li><a>Home</a></li>
                   <li><a>About Us</a></li>
                   <li><a>Shop</a></li>
                   <li><a>All Fruits</a></li>
                 </ul>
             </div>
-
-            <div class="flex gap-3 font-bold items-center justify-between border border-red-950">
+            <div class="flex gap-3 font-bold items-center justify-between">
                 <div><img src="./images/logo.png" alt="Fruits"></div>
               <a class="bg-transparent text-4xl text-white">Fruit Burst</a>
             </div>
             
-            <div class="border border-red-950 flex items-center justify-between bg-white px-5 rounded-full lg:w-1/5">
+            <div class="flex items-center justify-between bg-white px-5 rounded-full lg:w-1/5">
                 <input type="search" placeholder="Search" class="input bg-white"/>
                 <div>
                     <img src="./images/Frame.png" alt="logo">
@@ -49,25 +47,26 @@
     <main class="container mx-auto">
         <!-- banner -->
         <div class="carousel w-full">
+          <!-- slide 1  -->
             <div id="slide1" class="carousel-item relative w-full">
-              <img src="./images/banner1.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide4" class="btn btn-circle">❮</a> 
                 <a href="#slide2" class="btn btn-circle">❯</a>
               </div>
 
-              <!-- <div class="hero absolute h-full" style="background-image: url(./images/banner1.png);">
+              <div class="hero" style="background-image: url(./images/banner1.png);">
                 <div class="hero-overlay bg-opacity-60"></div>
                 <div class="hero-content text-center text-neutral-content">
                   <div class="max-w-md">
-                    <h1 class="mb-5 text-7xl font-bold">Exotic tastes at your <br>doorstep</h1>
-                    <p class="mb-5 text-3xl">We supply highly quality organic products</p>
+                    <h1 class="mb-5 text-5xl font-black text-white">Exotic tastes at your <br>doorstep</h1>
+                    <p class="mb-5 text-2xl text-white">We supply highly quality organic products</p>
                     <button class="btn btn-error">Shop Now</button>
                   </div>
                 </div>
-              </div> -->
+              </div>
 
             </div> 
+            <!-- slide 2  -->
             <div id="slide2" class="carousel-item relative w-full">
               <img src="./images/banner2.png" class="w-full" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -436,81 +435,82 @@
             </div>
           </div>
           <!-- why choose us section  -->
-          <div class="bg-gray-300 flex flex-col justify-center items-center">
+          <div class="flex flex-col justify-center items-center py-6">
             <!-- card div  -->
             <div class="text-center">
               <h3 class="font-black text-3xl p-3">Why Choose Us</h3>
               <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
             <!-- second div  -->
-            <div class="flex gap-8 justify-between items-center">
+            <div class="flex gap-8 pb-28 pt-14 justify-between items-center">
               <!-- fist card  -->
-              <div class="w-2/5">
-                <div class="flex gap-3 px-5">
+              <div class="w-4/12">
+                <div class="flex gap-3 py-3">
                   <div class="bg-gray-300 rounded-full w-28 h-20 flex justify-center items-center">
                     <img src="./images/group 1.png" alt="logo">
                   </div>
                   <div>
                     <h5 class="text-2xl font-black py-3">Dedicated Team</h5>
                     <hr class="bg-slate-950 w-32">
-                    <p class="py-3">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <p class="py-3 text-gray-700">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                   </div>
                 </div>
-                <div class="flex">
-                  <div>
-                    <img src="./images/group 1.png" alt="">
+                <div class="flex gap-3 py-3">
+                  <div class="bg-gray-300 rounded-full w-28 h-20 flex justify-center items-center">
+                    <img src="./images/love 1.png" alt="logo">
                   </div>
                   <div>
-                    <h5>Gift Certificates</h5>
-                    <hr>
-                    <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <h5 class="text-2xl font-black py-3">Fresh is Best</h5>
+                    <hr class="bg-slate-950 w-32">
+                    <p class="py-3 text-gray-700">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                   </div>
                 </div>
-                <div class="flex">
-                  <div>
-                    <img src="./images/group 1.png" alt="">
+                <div class="flex gap-3 py-3">
+                  <div class="bg-gray-300 rounded-full w-28 h-20 flex justify-center items-center">
+                    <img src="./images/gift-box 1.png" alt="logo">
                   </div>
                   <div>
-                    <h5>Fresh is Best</h5>
-                    <hr>
-                    <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <h5 class="text-2xl font-black py-3">Gift Certificates</h5>
+                    <hr class="bg-slate-950 w-32">
+                    <p class="py-3 text-gray-700">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                   </div>
                 </div>
               </div>
               <!-- img div  -->
-              <div><img src="./images/whychoose1.png" alt="fruits"></div>
-              <!-- third div  -->
-              <div>
-                <div class="flex justify-end">
-                  <div class="text-end">
-                    <h5>Integrated Supplier</h5>
-                    <hr>
-                    <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <div class="w-4/12"><img class="w-full" src="./images/whychoose1.png" alt="fruits"></div>
+              <!-- third card  -->
+              <div class="w-4/12">
+                <div class="flex gap-3 py-3">
+                  <div class="flex justify-end items-end flex-col text-end">
+                    <h5 class="text-2xl font-black py-3">Integrated Supplier</h5>
+                    <hr class="bg-slate-950 w-32">
+                    <p class="py-3 text-gray-700">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                   </div>
-                  <div>
-                    <img src="./images/group 1.png" alt="">
-                  </div>
-                </div>
-                <div class="flex justify-end">
-                  <div class="text-end">
-                    <h5>Sustainable Practice</h5>
-                    <hr>
-                    <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                  </div>
-                  <div>
-                    <img src="./images/group 1.png" alt="">
+                  <div class="bg-gray-300 rounded-full w-28 h-20 flex justify-center items-center">
+                    <img src="./images/fruit 1.png" alt="logo">
                   </div>
                 </div>
-                <div class="flex justify-end">
-                  <div class="text-end">
-                    <h5>The Benefits Only</h5>
-                    <hr>
-                    <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                <div class="flex gap-3 py-3">
+                  <div class="flex justify-end items-end flex-col text-end">
+                    <h5 class="text-2xl font-black py-3">Sustainable Practice</h5>
+                    <hr class="bg-slate-950 w-32">
+                    <p class="py-3 text-gray-700">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                   </div>
-                  <div>
-                    <img src="./images/group 1.png" alt="">
+                  <div class="bg-gray-300 rounded-full w-28 h-20 flex justify-center items-center">
+                    <img src="./images/ice-cream 1.png" alt="logo">
                   </div>
                 </div>
+                <div class="flex gap-3 py-3">
+                  <div class="flex justify-end items-end flex-col text-end">
+                    <h5 class="text-2xl font-black py-3">The Benefits Only</h5>
+                    <hr class="bg-slate-950 w-32">
+                    <p class="py-3 text-gray-700">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                  </div>
+                  <div class="bg-gray-300 rounded-full w-28 h-20 flex justify-center items-center">
+                    <img src="./images/like 1.png" alt="logo">
+                  </div>
+                </div>
+              </div>
                 </div>
               </div>
             </div>
